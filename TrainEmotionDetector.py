@@ -63,3 +63,5 @@ with open("emotion_model.json","w") as json_file:
 
 # save trained model in weight in .h5 file
 emotion_model.save_weights('emotion_model.h5')
+
+print("Hello World")
